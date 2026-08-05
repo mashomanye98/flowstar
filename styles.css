@@ -1091,6 +1091,7 @@ textarea {
 
   .placeholder-card {
     min-height: 0;
+    display: none;
   }
 
   .placeholder-image {
