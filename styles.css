@@ -1127,6 +1127,23 @@ textarea {
     max-height: 220px;
   }
 
+  .service-detail-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .service-detail-hero p,
+  .service-detail-promo p {
+    text-align: center;
+    margin-inline: auto;
+  }
+
+  .service-detail-actions,
+  .service-detail-promo {
+    display: grid;
+    justify-items: center;
+  }
+
   .service-detail-image {
     display: none;
   }
