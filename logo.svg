@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Flowstar logo</title>
+  <desc id="desc">A teal circular logo with a stylized leaf and sparkle mark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="96" y1="96" x2="416" y2="416" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A7F6E" />
+      <stop offset="1" stop-color="#0F2E27" />
+    </linearGradient>
+    <linearGradient id="leaf" x1="176" y1="156" x2="330" y2="356" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9E9E4" />
+      <stop offset="1" stop-color="#FFFFFF" />
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="232" fill="url(#bg)" />
+  <circle cx="256" cy="256" r="198" fill="rgba(255,255,255,0.06)" />
+  <path d="M170 285C168 224 212 172 270 160C296 155 319 160 339 170C342 205 330 241 305 268C279 298 241 316 202 322C188 315 177 304 170 285Z" fill="url(#leaf)" />
+  <path d="M196 314C232 274 266 236 337 170" stroke="#B8D9D0" stroke-width="18" stroke-linecap="round" />
+  <path d="M310 136L317 153L334 160L317 167L310 184L303 167L286 160L303 153L310 136Z" fill="#D9E9E4" />
+  <path d="M360 198L365 210L377 215L365 220L360 232L355 220L343 215L355 210L360 198Z" fill="#D9E9E4" />
+  <path d="M156 186L161 198L173 203L161 208L156 220L151 208L139 203L151 198L156 186Z" fill="#D9E9E4" />
+</svg>
