@@ -162,8 +162,32 @@ textarea {
 }
 
 .nav-toggle-icon {
-  font-size: 1.15rem;
-  line-height: 1;
+  width: 18px;
+  height: 14px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-toggle-icon span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  border-radius: 999px;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
+.nav-toggle.is-open .nav-toggle-icon span:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.nav-toggle.is-open .nav-toggle-icon span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-toggle.is-open .nav-toggle-icon span:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
 }
 
 .btn {
@@ -220,7 +244,7 @@ textarea {
   background: rgba(10, 156, 7, 0.975);
   color: var(--white);
   border-color: rgba(82, 152, 12, 0.995);
-  border-radius: 50px;
+  border-radius: 1px;
 }
 
 .hero-section {
@@ -839,7 +863,7 @@ textarea {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.4fr 1fr 0.9fr;
+  grid-template-columns: 1.4fr 1fr 1fr 0.9fr;
   gap: 2rem;
   align-items: start;
 }
@@ -1104,7 +1128,7 @@ textarea {
   }
 
   .service-detail-image {
-    max-height: 260px;
+    display: none;
   }
 
   .section-spacing {

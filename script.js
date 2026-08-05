@@ -4,6 +4,7 @@ const nav = document.querySelector('.site-nav');
 if (toggleButton && nav) {
   const setMenuState = (isOpen) => {
     nav.classList.toggle('is-open', isOpen);
+    toggleButton.classList.toggle('is-open', isOpen);
     toggleButton.setAttribute('aria-expanded', String(isOpen));
   };
 
